@@ -1,0 +1,68 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*------------ 
+-First Section-Start 
+--------------*/
+.section-one{
+    display: flex;
+    background-color: #b70000;
+    padding-top: 150px;
+    padding-bottom: 80px;
+    margin-bottom: 55px;
+}
+.section-one-left{
+    width: 50%;
+    color: white;
+    padding-top: 50px;
+    padding-left: 156px;    
+}
+.section-one-left a {
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color: #3dbafd;
+    color: white;
+}
+#lol :hover {
+    background-color:#b1bf1a;
+}
+.section-one-left h1{
+    font-size: 41px
+}
+.section-one-right{
+    width: 50%;
+    align-items: center;
+
+}
+.section-one-right img{
+    width: 550px;
+    height: 440px;
+   
+}
+/*------------ 
+-First Section End-------------
+-------------------------------
+-Secont Section Strat---------- 
+--------------*/
+.all-profile{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 180px;
+    margin-right: 200px;
+    
+   
+}
+.profile{
+    width: 250px;
+    height: 460px;
+    padding: 15px;
+    margin: 15px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 15%);
+}
+.details img{
+    height: 250px;
+    width: 250px;
+}
+.details p{
+    
+}
