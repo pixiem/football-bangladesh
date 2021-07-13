@@ -66,3 +66,40 @@ body{
 .details p{
     
 }
+
+/*------------- Responsive Sector------------- */
+
+@media only screen and (max-width:688px) {
+    .section-one{
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        padding-left: 15px;
+    }
+    .section-one-left{
+        padding: 0px;
+        margin: 0px;
+    }
+    .section-one-right{
+        padding-top: 50px;
+    }
+    .section-one-right img{
+        width: 335px;
+    height: 286px;
+        
+    }
+    .all-profile{
+        display: flex;
+        margin: 0px;
+        justify-content: center;
+        
+    }
+    .profile{
+        width: 291px;
+        height: 460px;
+    }
+    .details img {
+        height: 242px;
+        width: 291px;
+    }
+}
