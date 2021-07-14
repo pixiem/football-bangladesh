@@ -220,6 +220,7 @@ marquee{
         margin-top:0;
     }
     iframe{
+        width: 348px;
         padding-left: 0px;
         margin-left: 20px;
     }
