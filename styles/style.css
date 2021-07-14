@@ -6,14 +6,16 @@ body{
 /*------------ 
 -First Section-Start 
 --------------*/
+
 .section-one{
     display: flex;
     background-color: #b70000;
     padding-top: 150px;
     padding-bottom: 80px;
-    margin-bottom: 55px;
+    
     
 }
+
   
 
 .section-one-left{
@@ -28,8 +30,10 @@ body{
     background-color: #3dbafd;
     color: white;
 }
-#lol :hover {
+#watch :hover  {
     background-color:#b1bf1a;
+    transition: 1s;
+ 
 }
 .section-one-left h1{
     font-size: 41px
@@ -110,6 +114,16 @@ height: 330px;
 .section-four-all{
     text-align: center;
     margin-top: 150px;
+    
+}
+.section-four-all span{
+    
+    font-size: 22px;
+    background-color:  #3dbafd;
+    color: white;
+    padding: 12px 19px;
+    
+   
 }
 
 
@@ -121,7 +135,25 @@ height: 330px;
     width: 32px;
     height: 32px;
 }
+iframe{
+    margin-left: 38%;
+    padding: 50px 0px;
+}
+.frame-sector{
+   
+    margin-top: 40px ;
+    
 
+}
+marquee{
+    padding-top: 11px;
+    height: 60px;
+    font-size: 29px;
+    background-color: #3dbafd;
+    margin-bottom: 55px;
+    
+
+}
 
 
 /*------------- Responsive Sector------------- */
