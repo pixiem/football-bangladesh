@@ -109,7 +109,7 @@ height: 330px;
 } 
 
 /*---------------------
-       Section four  
+    Section four start 
  -----------------------*/
 .section-four-all{
     text-align: center;
@@ -136,7 +136,8 @@ height: 330px;
     height: 32px;
 }
 iframe{
-    margin-left: 38%;
+    
+    width: 380px;
     padding: 50px 0px;
 }
 .frame-sector{
@@ -206,12 +207,22 @@ marquee{
     }
     .section-three-right img{
         padding-left: 7px;
-        width: 96%;
+        width: 92%;
+        padding-right: 0px;
+        margin-right: ;
         
     }
     .logo img{
         width: 100%;
 
     }
+    .frame-sector{
+        margin-top:0;
+    }
+    iframe{
+        padding-left: 0px;
+        margin-left: 20px;
+    }
     
 }
+/*------------- Responsive Sector End------------- */
